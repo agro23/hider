@@ -1,9 +1,15 @@
+/*
 #walrus-showing {
   display: none;
 }
 
 #hide-images {
   display: none;
+}
+
+*/
+.hidden-text {
+    display: none;
 }
 
 .clickable {
@@ -13,4 +19,15 @@
 
 .clickable:hover {
   text-decoration: underline;
+}
+
+.container-2 {
+  margin: 2em;
+  border: 1px solid black;
+  padding: 7px;
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+h1 {
+  margin-left: .75em;
 }
