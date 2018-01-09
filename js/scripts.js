@@ -4,5 +4,11 @@ $(document).ready(function() {
     $("#walrus-hidden").toggle();
     $("#hide-images").toggle();
     $("#show-images").toggle();
+    $("img").slideToggle(500);
   });
 });
+
+/*
+$("#walrus-showing").fadeToggle();
+$("#walrus-hidden").fadeToggle();
+*/
